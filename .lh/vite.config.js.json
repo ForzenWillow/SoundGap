@@ -1,0 +1,50 @@
+{
+    "sourceFile": "vite.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1735306216932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735306228110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import \n+import { defineConfig } from 'vite'\n+import vue from '@vitejs/plugin-vue'\n+\n+// https://vite.dev/config/\n+export default defineConfig({\n+  plugins: [vue()],\n+})\n"
+                },
+                {
+                    "date": 1735306233534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import {fileIRl}\n+import { defineConfig } from 'vite'\n+import vue from '@vitejs/plugin-vue'\n+\n+// https://vite.dev/config/\n+export default defineConfig({\n+  plugins: [vue()],\n+})\n"
+                },
+                {
+                    "date": 1735306239754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import {}\n+import { defineConfig } from 'vite'\n+import vue from '@vitejs/plugin-vue'\n+\n+// https://vite.dev/config/\n+export default defineConfig({\n+  plugins: [vue()],\n+})\n"
+                },
+                {
+                    "date": 1735306245924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import {file}\n+import { defineConfig } from 'vite'\n+import vue from '@vitejs/plugin-vue'\n+\n+// https://vite.dev/config/\n+export default defineConfig({\n+  plugins: [vue()],\n+})\n"
+                },
+                {
+                    "date": 1735306252901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import {file}\n+import { defineConfig } from 'vite'\n+import vue from '@vitejs/plugin-vue'\n+\n+// https://vite.dev/config/\n+export default defineConfig({\n+  plugins: [vue()],\n+})\n"
+                },
+                {
+                    "date": 1735306260415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import {fileURLToPath,}\n+import { defineConfig } from 'vite'\n+import vue from '@vitejs/plugin-vue'\n+\n+// https://vite.dev/config/\n+export default defineConfig({\n+  plugins: [vue()],\n+})\n"
+                },
+                {
+                    "date": 1735306277876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import {fileURLToPath,URL}\n+import {fileURLToPath,URL} from 'node:url';\n import { defineConfig } from 'vite'\n import vue from '@vitejs/plugin-vue'\n \n // https://vite.dev/config/\n"
+                },
+                {
+                    "date": 1735306348216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import {fileURLToPath,URL} from 'node:url';\n+import { defineConfig } from 'vite'\n+import vue from '@vitejs/plugin-vue'\n+\n+// https://vite.dev/config/\n+export default defineConfig({\n+  plugins: [vue()],\n+  resolve:{\n+    alias:{\n+      '@':fileURLToPath(new URL(\"./src\",import.meta.url))\n+    }\n+  }\n+})\n+\n"
+                }
+            ],
+            "date": 1735306216932,
+            "name": "Commit-0",
+            "content": "\nimport { defineConfig } from 'vite'\nimport vue from '@vitejs/plugin-vue'\n\n// https://vite.dev/config/\nexport default defineConfig({\n  plugins: [vue()],\n})\n"
+        }
+    ]
+}

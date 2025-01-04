@@ -1,0 +1,118 @@
+{
+    "sourceFile": "src/components/NavBar.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1735306738380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735306763384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-<template></template>\n\\ No newline at end of file\n+<template>\r\n+  \r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306770790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <template>\r\n-  \r\n+  <header class=\"\"></header>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306776425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+<template>\r\n+  <header class=\"flex justify\"></header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306782563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center \"></header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306790715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity\"></header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306796143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relativ\"></header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306805969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \"></header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306813958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n <template>\r\n-  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \"></header>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    \r\n+  </header>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306825586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div></div>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306833468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text\"></div>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306839710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text\"></div>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306846536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\"></div>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306856430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306864174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    \r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306870197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!--  -->\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306877156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!-- Telefono t -->\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306888671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!-- Telefono mygtukas ijungimo  -->\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306893915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!-- Telefono mygtukas ijungimo  -->\r\n+     <button></button>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306902097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!-- Telefono mygtukas ijungimo  -->\r\n+     <button type=\"button\"></button>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306907159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!-- Telefono mygtukas ijungimo  -->\r\n+     <button type=\"button\" class=\"\"></button>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306920598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!-- Telefono mygtukas ijungimo  -->\r\n+     <button type=\"button\" class=\"block \"></button>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306925635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <template>\r\n   <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n     <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n     <!-- Telefono mygtukas ijungimo  -->\r\n-     <button type=\"button\" class=\"block \"></button>\r\n+     <button type=\"button\" class=\"block text-secondary\"></button>\r\n   </header>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306958386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!-- Telefono mygtukas ijungimo  -->\r\n+     <button type=\"button\" class=\"block text-secondary\">\r\n+      \r\n+     </button>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306966485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n   <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n     <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n     <!-- Telefono mygtukas ijungimo  -->\r\n      <button type=\"button\" class=\"block text-secondary\">\r\n-      <span>\r\n+      <span class=\"\">\r\n \r\n-        \r\n+\r\n       </span>\r\n      </button>\r\n   </header>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735306976891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+<template>\r\n+  <header class=\"flex justify-between items-center p-6 bg-opacity-50 relative z-20 \">\r\n+    <div class=\"text-white text-3xl font-bold\">LOGO</div>\r\n+    <!-- Telefono mygtukas ijungimo  -->\r\n+     <button type=\"button\" class=\"block text-secondary\">\r\n+      <span class=\"text-5xl\">\r\n+        <img src=\"\" alt=\"\">\r\n+      </span>\r\n+     </button>\r\n+  </header>\r\n+</template>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1735306738380,
+            "name": "Commit-0",
+            "content": "<template></template>"
+        }
+    ]
+}

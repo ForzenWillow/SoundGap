@@ -1,0 +1,86 @@
+{
+    "sourceFile": "src/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1735305326825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735603165149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n @tailwind base;\n @tailwind components;\n-@tailwind utilities;\n\\ No newline at end of file\n+@tailwind utilities;\n+\n+\n"
+                },
+                {
+                    "date": 1735603176737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,8 @@\n @tailwind components;\n @tailwind utilities;\n \n \n+html.dark {\n+  background-color: #111827;\n+  color: #ffffff;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735603493961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,4 @@\n @tailwind components;\n @tailwind utilities;\n \n \n-html.dark {\n-  background-color: #111827;\n-  color: #ffffff;\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735603505867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n @tailwind base;\n @tailwind components;\n @tailwind utilities;\n \n-\n+html.dark {\n+  background-color: #111827;\n+  color: #ffffff;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735856740289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,162 @@\n \n html.dark {\n   background-color: #111827;\n   color: #ffffff;\n+}\n+\n+\n+\n+\n+\n+\n+.container{\n+  width: 900px;\n+  margin: auto;\n+  max-width: 90vw;\n+  text-align: center;\n+  padding-top: 10px;\n+  transition: transform .5s;\n+}\n+svg{\n+  width: 30px;\n+}\n+header{\n+  display: flex;\n+  justify-content: space-between;\n+  align-items: center;\n+  padding: 20px 0;\n+}\n+.icon-cart{\n+  position: relative;\n+}\n+.icon-cart span{\n+  position: absolute;\n+  background-color: red;\n+  width: 30px;\n+  height: 30px;\n+  display: flex;\n+  justify-content: center;\n+  align-items: center;\n+  border-radius: 50%;\n+  color: #fff;\n+  top: 50%;\n+  right: -20px;\n+}\n+.title{\n+  font-size: xx-large;\n+}\n+.listProduct .item img{\n+  width: 90%;\n+  filter: drop-shadow(0 50px 20px #0009);\n+}\n+.listProduct{\n+  display: grid;\n+  grid-template-columns: repeat(4, 1fr);\n+  gap: 20px;\n+}\n+.listProduct .item{\n+  background-color: #EEEEE6;\n+  padding: 20px;\n+  border-radius: 20px;\n+}\n+.listProduct .item h2{\n+  font-weight: 500;\n+  font-size: large;\n+}\n+.listProduct .item .price{\n+  letter-spacing: 7px;\n+  font-size: small;\n+}\n+.listProduct .item button{\n+  background-color: #353432;\n+  color: #eee;\n+  border: none;\n+  padding: 5px 10px;\n+  margin-top: 10px;\n+  border-radius: 20px;\n+}\n+\n+/* cart */\n+.cartTab{\n+  width: 400px;\n+  background-color: #353432;\n+  color: #eee;\n+  position: fixed;\n+  top: 0;\n+  right: -400px;\n+  bottom: 0;\n+  display: grid;\n+  grid-template-rows: 70px 1fr 70px;\n+  transition: .5s;\n+}\n+body.showCart .cartTab{\n+  right: 0;\n+}\n+body.showCart .container{\n+  transform: translateX(-250px);\n+}\n+.cartTab h1{\n+  padding: 20px;\n+  margin: 0;\n+  font-weight: 300;\n+}\n+.cartTab .btn{\n+  display: grid;\n+  grid-template-columns: repeat(2, 1fr);\n+}\n+.cartTab button{\n+  background-color: #E8BC0E;\n+  border: none;\n+  font-family: Poppins;\n+  font-weight: 500;\n+  cursor: pointer;\n+}\n+.cartTab .close{\n+  background-color: #eee;\n+}\n+.listCart .item img{\n+  width: 100%;\n+}\n+.listCart .item{\n+  display: grid;\n+  grid-template-columns: 70px 150px 50px 1fr;\n+  gap: 10px;\n+  text-align: center;\n+  align-items: center;\n+}\n+.listCart .quantity span{\n+  display: inline-block;\n+  width: 25px;\n+  height: 25px;\n+  background-color: #eee;\n+  border-radius: 50%;\n+  color: #555;\n+  cursor: pointer;\n+}\n+.listCart .quantity span:nth-child(2){\n+  background-color: transparent;\n+  color: #eee;\n+  cursor: auto;\n+}\n+.listCart .item:nth-child(even){\n+  background-color: #eee1;\n+}\n+.listCart{\n+  overflow: auto;\n+}\n+.listCart::-webkit-scrollbar{\n+  width: 0;\n+}\n+@media only screen and (max-width: 992px) {\n+  .listProduct{\n+      grid-template-columns: repeat(3, 1fr);\n+  }\n+}\n+\n+\n+/* mobile */\n+@media only screen and (max-width: 768px) {\n+  .listProduct{\n+      grid-template-columns: repeat(2, 1fr);\n+  }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1735856788571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,8 @@\n \n \n \n \n-\n-\n .container{\n   width: 900px;\n   margin: auto;\n   max-width: 90vw;\n@@ -161,5 +159,6 @@\n @media only screen and (max-width: 768px) {\n   .listProduct{\n       grid-template-columns: repeat(2, 1fr);\n   }\n-}\n\\ No newline at end of file\n+}\n+\n"
+                },
+                {
+                    "date": 1735857179177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,156 +9,6 @@\n \n \n \n \n-.container{\n-  width: 900px;\n-  margin: auto;\n-  max-width: 90vw;\n-  text-align: center;\n-  padding-top: 10px;\n-  transition: transform .5s;\n-}\n-svg{\n-  width: 30px;\n-}\n-header{\n-  display: flex;\n-  justify-content: space-between;\n-  align-items: center;\n-  padding: 20px 0;\n-}\n-.icon-cart{\n-  position: relative;\n-}\n-.icon-cart span{\n-  position: absolute;\n-  background-color: red;\n-  width: 30px;\n-  height: 30px;\n-  display: flex;\n-  justify-content: center;\n-  align-items: center;\n-  border-radius: 50%;\n-  color: #fff;\n-  top: 50%;\n-  right: -20px;\n-}\n-.title{\n-  font-size: xx-large;\n-}\n-.listProduct .item img{\n-  width: 90%;\n-  filter: drop-shadow(0 50px 20px #0009);\n-}\n-.listProduct{\n-  display: grid;\n-  grid-template-columns: repeat(4, 1fr);\n-  gap: 20px;\n-}\n-.listProduct .item{\n-  background-color: #EEEEE6;\n-  padding: 20px;\n-  border-radius: 20px;\n-}\n-.listProduct .item h2{\n-  font-weight: 500;\n-  font-size: large;\n-}\n-.listProduct .item .price{\n-  letter-spacing: 7px;\n-  font-size: small;\n-}\n-.listProduct .item button{\n-  background-color: #353432;\n-  color: #eee;\n-  border: none;\n-  padding: 5px 10px;\n-  margin-top: 10px;\n-  border-radius: 20px;\n-}\n \n-/* cart */\n-.cartTab{\n-  width: 400px;\n-  background-color: #353432;\n-  color: #eee;\n-  position: fixed;\n-  top: 0;\n-  right: -400px;\n-  bottom: 0;\n-  display: grid;\n-  grid-template-rows: 70px 1fr 70px;\n-  transition: .5s;\n-}\n-body.showCart .cartTab{\n-  right: 0;\n-}\n-body.showCart .container{\n-  transform: translateX(-250px);\n-}\n-.cartTab h1{\n-  padding: 20px;\n-  margin: 0;\n-  font-weight: 300;\n-}\n-.cartTab .btn{\n-  display: grid;\n-  grid-template-columns: repeat(2, 1fr);\n-}\n-.cartTab button{\n-  background-color: #E8BC0E;\n-  border: none;\n-  font-family: Poppins;\n-  font-weight: 500;\n-  cursor: pointer;\n-}\n-.cartTab .close{\n-  background-color: #eee;\n-}\n-.listCart .item img{\n-  width: 100%;\n-}\n-.listCart .item{\n-  display: grid;\n-  grid-template-columns: 70px 150px 50px 1fr;\n-  gap: 10px;\n-  text-align: center;\n-  align-items: center;\n-}\n-.listCart .quantity span{\n-  display: inline-block;\n-  width: 25px;\n-  height: 25px;\n-  background-color: #eee;\n-  border-radius: 50%;\n-  color: #555;\n-  cursor: pointer;\n-}\n-.listCart .quantity span:nth-child(2){\n-  background-color: transparent;\n-  color: #eee;\n-  cursor: auto;\n-}\n-.listCart .item:nth-child(even){\n-  background-color: #eee1;\n-}\n-.listCart{\n-  overflow: auto;\n-}\n-.listCart::-webkit-scrollbar{\n-  width: 0;\n-}\n-@media only screen and (max-width: 992px) {\n-  .listProduct{\n-      grid-template-columns: repeat(3, 1fr);\n-  }\n-}\n \n-\n-/* mobile */\n-@media only screen and (max-width: 768px) {\n-  .listProduct{\n-      grid-template-columns: repeat(2, 1fr);\n-  }\n-}\n-\n"
+                },
+                {
+                    "date": 1735997852934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,6 @@\n \n \n \n \n+.autorotate\n \n-\n"
+                },
+                {
+                    "date": 1735997859686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,8 @@\n \n \n \n \n-.autorotate\n+.autorotate{\n+  animation: autorotate 60s linear infinite;\n+}\n \n"
+                },
+                {
+                    "date": 1735997867712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n \n \n \n .autorotate{\n-  animation: autorotate 60s linear infinite;\n+  animation: autorotate 60;\n }\n \n"
+                },
+                {
+                    "date": 1735997876061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,8 @@\n \n \n \n .autorotate{\n-  animation: autorotate 60;\n+  animation: autoRotateAnimation;\n+  ;\n }\n \n"
+                },
+                {
+                    "date": 1735997885305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n \n \n .autorotate{\n   animation: autoRotateAnimation;\n-  ;\n+  animation-timeline: 10s;\n }\n \n"
+                },
+                {
+                    "date": 1735997892058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n \n \n .autorotate{\n   animation: autoRotateAnimation;\n-  animation-timeline: 10s;\n+  animation-timeline: view;\n }\n \n"
+                },
+                {
+                    "date": 1735997898734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n \n \n .autorotate{\n   animation: autoRotateAnimation;\n-  animation-timeline: view;\n+  animation-timeline: view();\n }\n \n"
+                },
+                {
+                    "date": 1735997905002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,6 @@\n .autorotate{\n   animation: autoRotateAnimation;\n   animation-timeline: view();\n }\n+@\n \n"
+                },
+                {
+                    "date": 1735997910695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,13 @@\n .autorotate{\n   animation: autoRotateAnimation;\n   animation-timeline: view();\n }\n-@\n+@keyframes autoRotateAnimation {\n+  from {\n+    transform: rotate(0deg);\n+  }\n+  to {\n+    transform: rotate(360deg);\n+  }\n+}\n \n"
+                },
+                {
+                    "date": 1735997939739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,17 +9,5 @@\n \n \n \n \n-.autorotate{\n-  animation: autoRotateAnimation;\n-  animation-timeline: view();\n-}\n-@keyframes autoRotateAnimation {\n-  from {\n-    transform: rotate(0deg);\n-  }\n-  to {\n-    transform: rotate(360deg);\n-  }\n-}\n \n"
+                }
+            ],
+            "date": 1735305326825,
+            "name": "Commit-0",
+            "content": "@tailwind base;\n@tailwind components;\n@tailwind utilities;"
+        }
+    ]
+}

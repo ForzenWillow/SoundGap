@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1735603366328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735603391310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n+import 'aos/dist/aos.css'; // Import AOS styles\n \n createApp(App).mount('#app')\n"
+                },
+                {
+                    "date": 1735603402590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n import 'aos/dist/aos.css'; // Import AOS styles\n+import './assets/styles.css'; // Import the global CSS file\n \n createApp(App).mount('#app')\n"
+                }
+            ],
+            "date": 1735603366328,
+            "name": "Commit-0",
+            "content": "import { createApp } from 'vue';\nimport App from './App.vue';\nimport './assets/styles.css'; // Import the global CSS file\nimport 'aos/dist/aos.css'; // Import AOS styles\nimport './index.css'; // Import Tailwind CSS\n\ncreateApp(App).mount('#app');"
+        }
+    ]
+}
